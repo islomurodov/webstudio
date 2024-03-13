@@ -16,7 +16,7 @@ const items = ref<{ img: string, name: string, position: string }[]>([{ img: 'pe
           <div grid grid-cols-1 place-items-center items-baseline gap-6 lg:grid-cols-4 sm:grid-cols-2>
             <div v-for="(item, i) in items" :key="i" overflow-hidden rounded bg-white shadow>
               <div>
-                <img object-cover :src="`/assets/images/people/${item.img}`" alt="">
+                <img object-cover :src="`assets/images/people/${item.img}`" alt="">
               </div>
               <div py-5 md:py-10>
                 <div text-center>

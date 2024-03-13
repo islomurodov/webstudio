@@ -1,5 +1,5 @@
 <template>
-  <div class="head__section" relative isolate w-full flex items-center justify-center bg-cover bg-no-repeat py-20 lg:py-45 md:py-40 sm:py-30 xl:py-50 style="background-image: url('/assets/images/backdrop.png');">
+  <div class="head__section" relative isolate w-full flex items-center justify-center bg-cover bg-no-repeat py-20 lg:py-45 md:py-40 sm:py-30 xl:py-50 style="background-image: url('assets/images/backdrop.png');">
     <div mx-auto max-w-7xl w-full px-3 sm:px-4>
       <div mx-auto flex items-center justify-center container>
         <div mx-auto>

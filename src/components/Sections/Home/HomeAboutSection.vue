@@ -16,7 +16,7 @@ const items = ref<{ img: string }[]>([{ img: 'about-1.png' }, { img: 'about-2.pn
           <div flex items-center justify-between gap-6>
             <div v-for="(item, i) in items" :key="`about-${i}`" w-full>
               <div>
-                <img w-full object-cover :src="`/assets/images/about/${item.img}`" alt="">
+                <img w-full object-cover :src="`~/assets/images/about/${item.img}`" alt="">
               </div>
             </div>
           </div>
