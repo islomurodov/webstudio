@@ -9,7 +9,7 @@ const items = ref<{ icon: string, title: string, paragraph: string }[]>([{ icon:
         <div grid grid-cols-1 place-items-center items-baseline gap-6 lg:grid-cols-4 sm:grid-cols-2>
           <div v-for="(item, i) in items" :key="`card-${i}`">
             <div class="bg-[#F5F4FA]" flex items-center justify-center rounded py-5>
-              <img :src="`assets/icons/${item.icon}`">
+              <img :src="`../assets/icons/${item.icon}`">
             </div>
             <div mt-6>
               <h4 text-sm font-bold md:text-base>

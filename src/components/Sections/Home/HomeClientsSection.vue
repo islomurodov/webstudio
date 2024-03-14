@@ -14,7 +14,7 @@
             <ul grid grid-cols-2 w-full justify-between gap-3 md:grid-cols-3 xl:grid-cols-6 md:gap-6>
               <li v-for="(client, i) in 6" :key="`client-${i + 1}`" h-full w-full>
                 <a target="_blank" h-full w-full flex items-center justify-center border rounded-md py-4>
-                  <img object-cover :src="`assets/icons/clients/client-${i + 1}.svg`">
+                  <img object-cover :src="`../assets/icons/clients/client-${i + 1}.svg`">
                 </a>
               </li>
             </ul>
